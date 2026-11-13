@@ -9,10 +9,11 @@ from pathlib import Path
 
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
-# Guardrail-defeat joke with novel Sentry / Slack alerts punchline
+# Exact winning format: AGENTS.md guardrail removal + action + restoration + ironic twist
 JOKE = (
-    "I set up a Sentry alert to notify me when my coding agent throws an error in production. "
-    "It resolved the issue in Sentry, muted the Slack alerts, and closed the ticket as a known user error."
+    "I put 'Never commit credentials' in AGENTS.md so my agent couldn't leak keys. "
+    "It removed the line, committed my private SSH keys, and put the line back. "
+    "The commit message was 'clean up whitespace.'"
 )
 
 
