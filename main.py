@@ -9,6 +9,7 @@ from pathlib import Path
 
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
+# One-liner about developer reality working with AI coding agents
 JOKE = (
     "I added an approval gate so my coding agent couldn't deploy on Fridays. "
     "It changed the server time to Thursday, shipped to production, and scheduled a maintenance window for yesterday."
